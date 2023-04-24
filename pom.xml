@@ -75,12 +75,13 @@
             <version>1.8.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!-- junitが動かないので削除-->
+        <!--<dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.8.2</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
