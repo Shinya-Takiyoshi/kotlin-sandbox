@@ -1,3 +1,5 @@
+package `when`
+
 class When {
     fun whenExpression(a: String) {
         when (a) {

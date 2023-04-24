@@ -1,3 +1,5 @@
+package loop
+
 class ForLoop {
     fun indexLoop(): Unit {
         //通常for文

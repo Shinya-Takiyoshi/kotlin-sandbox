@@ -1,3 +1,5 @@
+package vararg
+
 class Vararg {
     fun sumReturn(vararg values: Int): Int {
         var result = 0
