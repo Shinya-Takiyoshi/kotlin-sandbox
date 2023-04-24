@@ -1,5 +1,5 @@
 class When {
-    fun whenExpression(a: String): Unit {
+    fun whenExpression(a: String) {
         when (a) {
             "kotlin" -> println("kotlinが渡されました")
             "java" -> println("javaが渡されました")
