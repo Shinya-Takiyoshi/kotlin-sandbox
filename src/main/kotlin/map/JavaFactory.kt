@@ -14,7 +14,6 @@ class JavaFactory {
 
     @NotNull
     fun of(javaType: JavaType): Java {
-        //ストラテジーパターンを使えば、if分岐なしでenumとmapによる切り替えなどができる。
         return javaTypes[javaType]!!
     }
 }
